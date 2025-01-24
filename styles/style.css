@@ -1,0 +1,167 @@
+/* header section style  */
+.body {
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: #f1f1f3;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header button {
+  padding: 10px 20px;
+}
+/* banner style  */
+.header_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 560px;
+  margin: 0 auto;
+  border-radius: 24px;
+  background-color: #c6e4d6;
+}
+.header_banner div {
+  margin-left: 24px;
+}
+.header_banner h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.header_banner h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.header_banner button {
+  padding: 12px 24px;
+  background-color: #006a50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header_banner img {
+  width: 475px;
+  height: 400px;
+  margin-right: 100px;
+}
+
+/* Pillars of "Bangladesh 2.0" */
+.pillars_style {
+  display: flex;
+  justify-content: center;
+  margin: 48px 150px;
+}
+.pillars_heading h1 {
+  padding-top: 80px;
+}
+
+.pillars_style .pillars_div {
+  width: 302px;
+  height: 244px;
+  border-radius: 16px;
+  margin: 1px auto;
+  background-color: white;
+  border: 16px;
+}
+.pillars_style .pillars_div img {
+  width: 62px;
+  height: 62px;
+  padding: 12px;
+}
+
+.pillars_style .pillars_div h3 {
+  padding-left: 12px;
+}
+.pillars_style .pillars_div p {
+  padding-left: 12px;
+}
+
+/* The Vision of Future */
+
+.vision_future h2 {
+  font-size: 40px;
+  font-style: bold;
+}
+.vision_future p {
+  font-size: 16px;
+}
+
+.vision_card {
+  display: flex;
+  justify-content: center;
+  margin: 48px 150px;
+}
+
+/* The Vision of Future first card design */
+.vision_card .card_div1 {
+  width: 410px;
+  height: 325px;
+  border-radius: 16px;
+  margin: 0 auto;
+  background-color: #d2e5ff;
+  border: 16px;
+}
+.vision_card .card_div1 img {
+  width: 62px;
+  height: 62px;
+  padding: 12px;
+}
+.vision_card .card_div1 h3 {
+  padding-left: 12px;
+}
+.vision_card .card_div1 p {
+  padding-left: 12px;
+}
+.vision_card .card_div1 .btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  padding: 12px;
+  margin-left: 12px;
+  background-color: #5490f5;
+  border-radius: 12px;
+}
+/* The Vision of Future first card design */
+.vision_card .card_div2 {
+  width: 410px;
+  height: 325px;
+  border-radius: 16px;
+  margin: 0 auto;
+  background-color: #c6e4d6;
+  border: 16px;
+}
+.vision_card .card_div2 img {
+  width: 62px;
+  height: 62px;
+  padding: 12px;
+}
+.vision_card .card_div2 h3 {
+  padding-left: 12px;
+}
+.vision_card .card_div2 p {
+  padding-left: 12px;
+}
+.vision_card .card_div2 .btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  padding: 12px;
+  margin-left: 12px;
+  background-color: #09a15c;
+  border-radius: 12px;
+}
