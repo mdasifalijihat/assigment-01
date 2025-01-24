@@ -165,3 +165,348 @@
   background-color: #09a15c;
   border-radius: 12px;
 }
+/* The Vision of Future first card design */
+.vision_card .card_div3 {
+  width: 410px;
+  height: 325px;
+  border-radius: 16px;
+  margin: 0 auto;
+  background-color: #f7ebcf;
+  border: 16px;
+}
+.vision_card .card_div3 img {
+  width: 62px;
+  height: 62px;
+  padding: 12px;
+}
+.vision_card .card_div3 h3 {
+  padding-left: 12px;
+}
+.vision_card .card_div3 p {
+  padding-left: 12px;
+}
+.vision_card .card_div3 .btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  padding: 12px;
+  margin-left: 12px;
+  background-color: #ffc239;
+  border-radius: 12px;
+}
+
+/* Dr. Muhammad Yunus */
+.yunus {
+  background-color: white;
+  border-radius: 15px;
+  padding: 24px 48px;
+}
+
+/* Your Opinion Matters */
+.opinion_section {
+  background-color: #f4f4f4;
+  padding: 40px 16px;
+}
+
+.opinion_section h1 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+/* Opinion Matters Container */
+.opinionMatters {
+  background-color: white;
+  border-radius: 15px;
+  padding: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Row */
+.opinionMatters .header_row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #c6e4d6;
+  font-weight: bold;
+  color: #006a50;
+  margin-bottom: 16px;
+}
+
+/* Question Rows */
+.opinionMatters .question_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+
+
+/* Opinion Button */
+.opinionMatters .question_row span {
+  background-color: #006a50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+/* Recent News */
+
+.recent_news_header {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.recent_news_header h3 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.recent_news_header p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+
+/* News Cards */
+.recnt_news {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  margin: 24px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 16px;
+}
+
+.recnt_news.reverse {
+  flex-direction: row-reverse;
+}
+
+.recnt_news img {
+  border-radius: 12px ;
+  width: 408px;
+  height: 306;
+}
+
+/* News Content */
+.news_content {
+  flex: 1;
+}
+
+.news_content h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.news_content img {
+  width: 134px;
+  height: 40px;
+  margin: 8px 0;
+}
+
+.news_content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.news_content button {
+  padding: 12px 24px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.news_content button:hover {
+  background-color: #004d38;
+  transform: translateY(-3px);
+}
+
+
+/* Donate Section */
+.donate_text {
+  margin-top: 88px;
+  text-align: center;
+}
+
+.donate_text h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.donate_text p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin: 16px 0;
+}
+
+/* Donate Amount Options */
+.donate {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.donate .donate-taka {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 48px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.donate .donate-taka.active {
+  background-color: #c6e4d6;
+}
+.donate .donate-taka:hover {
+  background-color: #c6e4d6; 
+  transform: scale(1.05); 
+}
+
+
+/* Other Amount Input */
+.otherAmount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  max-width: 1032px;
+  height: 24px;
+  margin: 24px auto;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Donate Button */
+.done_now {
+  display: flex;
+  justify-content: center;
+  margin: 16px auto;
+
+}
+
+.done_now button {
+  padding: 12px 24px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+/* Subscribe Newsletter */
+
+.subscribe-container {
+  margin: 50px auto;
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  padding: 40px 20px;
+  color: #333;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-content h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #2c3e50;
+}
+
+.subscribe-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  color: #555;
+}
+
+/* Input Styling */
+.subscribe-input {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.subscribe-input input {
+  width: 60%;
+  padding: 12px 16px;
+  border: 2px solid #8dc1a9;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.subscribe-input input:focus {
+  border-color: #68b683;
+  box-shadow: 0 0 8px rgba(104, 182, 131, 0.5);
+}
+
+.subscribe-input button {
+  padding: 12px 24px;
+  background-color: #68b683;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-input button:hover {
+  background-color: #56a072;
+}
+
+/* Footer Text */
+.subscribe-footer p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* footer */
+.footer{
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  margin-top: 80px;
+  }
+  .footer img{
+    margin: 0 12px;
+  }
